@@ -72,23 +72,23 @@ if (Detik > 59) {
     Hasil = Detik = 0
     HasilM = Menit + 1
     HasilJ = Jam
-    Hasil1 = `jadi jika ditambahkan 1 detik maka waktunya menjadi ${HasilJ}:${HasilM}:${Hasil}`
+    // Hasil1 = `jadi jika ditambahkan 1 detik maka waktunya menjadi ${HasilJ}:${HasilM}:${Hasil}`
 
 
 if (HasilM > 59){
         HasilM = Menit = 0
         HasilJ = Jam + 1
-        Hasil1 = `jadi jika ditambahkan 1 detik maka waktunya menjadi ${HasilJ}:${HasilM}:${Hasil}`
+        // Hasil1 = `jadi jika ditambahkan 1 detik maka waktunya menjadi ${HasilJ}:${HasilM}:${Hasil}`
     }
 
 if (HasilJ > 23) {
         HasilJ = Jam = 0
         HasilM = Menit = 0
         Hasil = Detik = 0
-        Hasil1 = `jadi jika ditambahkan 1 detik maka waktunya menjadi ${HasilJ}:${HasilM}:${Hasil}`
+        // Hasil1 = `jadi jika ditambahkan 1 detik maka waktunya menjadi ${HasilJ}:${HasilM}:${Hasil}`
     }
 
-    console.log(Hasil1)
+    console.log(`jadi jika ditambahkan 1 detik maka waktunya menjadi ${HasilJ}:${HasilM}:${Hasil}`)
 } else {
     console.log(`jadi jika ditambahkan 1 detik maka waktunya menjadi ${Jam}:${Menit}:${Detik}`)
 }
