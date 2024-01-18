@@ -57,7 +57,7 @@ if (mm == 1) {
 } else if (mm == 12) {
     mm = "Desember"
 } else {
-    mm = "Unknown"
+    mm = "Tidak Deketahui"
 }
 
 console.log(`jadi informasi yang didapatkan dari kode pegawai anda adalah ${g} adalah nomor golongan anda ${dd} adalah hari lahir anda ${mm} adalah bulan lahir anda ${year} adalah tahun lahir anda ${nn} adalah kode identitas`)
